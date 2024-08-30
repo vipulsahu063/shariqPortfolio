@@ -36,11 +36,11 @@ const BookSection = () => {
                 disabled
                 className="w-full p-4 text-lg border-b-2 border-white placeholder-white bg-transparent focus:outline-none cursor-not-allowed opacity-50"
               />
-              <a
+              <button
                 className="w-full inline-block p-4 text-lg font-bold border text-white rounded-md text-center cursor-not-allowed opacity-50"
               >
                 Coming Soon
-              </a>
+              </button>
             </div>
           </div>
         </div>

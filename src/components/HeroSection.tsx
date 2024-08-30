@@ -20,8 +20,8 @@ const HeroSection = () => {
       <div className="flex flex-col justify-end text-center md:text-left px-8 md:px-16">
         {/* Intro Section */}
         <div className="flex mb-8 md:mb-40 md:text-[.75rem] md:text-base opacity-25">
-          <span  aria-hidden="true">Freelancer</span>
-          <span  aria-hidden="true" className="ml-2 md:ml-40">Based in India</span>
+          <span >Freelancer</span>
+          <span  className="ml-2 md:ml-40">Based in India</span>
         </div>
 
         {/* Main Heading */}
