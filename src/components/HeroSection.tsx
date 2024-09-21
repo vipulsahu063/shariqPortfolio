@@ -17,21 +17,21 @@ const HeroSection = () => {
       </div>
 
       {/* Text Section */}
-      <div className="flex flex-col justify-end text-center md:text-left px-8 md:px-16">
+      <div className="flex flex-col justify-end md:text-left mt-10 md:mt-0 px-4 md:px-16">
         {/* Intro Section */}
-        <div className="flex mb-8 md:mb-40 md:text-[.75rem] md:text-base opacity-25">
+        <div className="flex justify-center md:justify-start mb-8 md:mb-40 md:text-[.75rem] md:text-base opacity-25">
           <span >Freelancer</span>
           <span  className="ml-2 md:ml-40">Based in India</span>
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-3xl md:text-6xl text-white mb-8 md:mb-40 uppercase">
+        <h1 className="text-3xl text-center md:text-start md:text-6xl text-white mb-8 md:mb-40 uppercase">
           <span className="block mb-2 md:mb-5 font-CinzelDecorative">Shariq Khan</span>
           <span className="block font-semibold">Digital Designer</span>
         </h1>
 
         {/* Social Links */}
-        <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-10 mb-10">
+        <div className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-10 mb-10">
           {memoizedSocialLinks.map(({ name, href }) => (
             <a
               key={name}
